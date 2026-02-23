@@ -16,3 +16,4 @@ export * from "./requests/CompositionRequest.js";
 export * from "./requests/IntersectionRequest.js";
 export * from "./requests/StatusRequest.js";
 export * from "./requests/UnionRequest.js";
+//# sourceMappingURL=index.d.ts.map

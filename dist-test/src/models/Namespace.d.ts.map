@@ -1,0 +1,1 @@
+{"version":3,"file":"Namespace.d.ts","sourceRoot":"","sources":["../../../src/models/Namespace.ts"],"names":[],"mappings":"AAAA,qBAAa,SAAS;IAClB,IAAI,EAAE,MAAM,EAAE,CAAC;gBAEH,IAAI,GAAE,MAAM,EAAO;IAI/B,MAAM,CAAC,GAAG,IAAI,SAAS;IAIvB,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,MAAM,GAAG,SAAS;IAKjD,WAAW,IAAI,MAAM;IAOrB,OAAO,IAAI,MAAM;IAIjB,aAAa,CAAC,KAAK,EAAE,MAAM,GAAG,MAAM;CAWvC"}
