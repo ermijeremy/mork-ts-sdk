@@ -1,0 +1,36 @@
+{
+  "name": "mork-ts-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript client SDK for the MORK Metta KG API",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsc -p tsconfig.test.json && node --test dist-test/test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mork", "metta", "knowledge-graph", "sdk", "typescript"],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "Ermias Kindalem <ermiaskindalem97@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ermijeremy/mork-ts-sdk.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
