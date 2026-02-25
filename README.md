@@ -6,7 +6,7 @@ TypeScript client SDK for the MORK (Metta KG) HTTP API. Ships typed request buil
 - Node.js 18+ (uses the built-in `fetch` and `AbortController`)
 - MORK base URL from `METTA_KG_MORK_URL` or pass it directly to the client constructor
 
-## Install (after publishing)
+## Install
 
 ```bash
 npm install mork-ts-sdk
