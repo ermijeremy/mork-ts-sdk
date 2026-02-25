@@ -1,4 +1,3 @@
-// Interface for Request
 export interface Request<T = any> {
     method(): string;
     path(): string;
@@ -6,7 +5,6 @@ export interface Request<T = any> {
     timeout(): number; // milliseconds
 }
 
-// Base request implementation to handle common defaults
 export abstract class BaseRequest<T = any> implements Request<T> {
     timeout(): number {
         return 20000; // 20 seconds
